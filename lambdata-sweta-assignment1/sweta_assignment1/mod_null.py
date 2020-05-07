@@ -1,2 +1,2 @@
 def data_null(df):
-   print(df.isnull().sum)
+   print(df.isnull().sum())
