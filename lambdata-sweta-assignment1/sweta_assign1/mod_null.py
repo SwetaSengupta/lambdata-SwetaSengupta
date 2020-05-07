@@ -1,6 +1,6 @@
 
 import pandas as pd
-#from sweta_assign1.mod_null import date_null
+#from .mod_null import data_null
 
 def data_null(df):
    print(df.isnull().sum())
