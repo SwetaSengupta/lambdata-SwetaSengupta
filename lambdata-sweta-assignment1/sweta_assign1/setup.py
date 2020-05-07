@@ -6,8 +6,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="lambdata-sweta_assing1", # the name that you will install via pip
-    version="1.1",
+    name="lambdata-sweta_assign1", # the name that you will install via pip
+    version="1.2",
     author="Sweta Sengupta",
     author_email="ssengupta801@gmail.com",
     description="A short description",
