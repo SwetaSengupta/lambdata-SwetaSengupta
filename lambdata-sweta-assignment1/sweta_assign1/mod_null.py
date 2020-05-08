@@ -1,6 +1,6 @@
 
 import pandas as pd
-from .mod_null import data_null
+#from .mod_null import data_null
 
 def data_null(df):
    print(df.isnull().sum())
