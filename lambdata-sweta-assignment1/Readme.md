@@ -9,7 +9,7 @@ df=pd.DataFrame(data)
 
 #for date.py
 from .dates import split_dates
-ddata={"Date": ["02/15/2019", "02/16/2019", "02/17/2019", "02/18/2019"]}
+ddata={"Date": ["02/15/2019", "02/16/2019", "02/17/2019", "02/18/2019"],"column2":["hey","hello","hi","namaste" }
 df = pd.DataFrame(ddata)
 print(split_dates(df))
 
@@ -20,3 +20,5 @@ data = {'Name':['Tom', 'nick', 'krish', 'jack'],
 df=pd.DataFrame(data)
 
 data_null(df)
+
+#for lst_srs_df
