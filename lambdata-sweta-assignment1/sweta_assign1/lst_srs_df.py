@@ -1,6 +1,15 @@
 import pandas as pd
 
 def lst_srs_cl(myList,df):
+
+     """Single function to take a list, turn it into a series and add it to a dataframe as a new column.
+        Params: 
+                myList is a single list
+                df is a dataframe which contains a few columns
+        Returns:
+                copy of the original dataframe, with another column which has all the values from myList
+
+     """
      mySeries = pd.Series(myList)      
      df.insert(0,"Gender", mySeries)
      return df
