@@ -7,7 +7,7 @@ def lst_srs_cl(myList,df):
                 myList is a single list
                 df is a dataframe which contains a few columns
         Returns:
-                copy of the original dataframe, with another column which has all the values from myList
+                copy of the original dataframe, with an added column which has all the values from myList
 
      """
      mySeries = pd.Series(myList)      
