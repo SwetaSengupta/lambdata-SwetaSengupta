@@ -15,5 +15,5 @@ setup(
     #license="MIT",
     url="https://github.com/SwetaSengupta/lambdata-SwetaSengupta/tree/master/lambdata-sweta-assignment1",
     #keywords="",
-    packages=find_packages() # ["my_lambdata"]
+    packages=["sweta_assign1"]#find_packages() # ["my_lambdata"]
 )

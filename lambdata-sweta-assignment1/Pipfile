@@ -8,6 +8,7 @@ twine = "*"
 
 [packages]
 pandas = "*"
+i = "*"
 
 [requires]
 python_version = "3.7"
